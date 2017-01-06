@@ -1,7 +1,24 @@
+#my-overrides .navbar-header > .my-nav {
+  color: #601716;
+  display: inline-block;
+}
+
 .heropic {
   width: 100%;
   height: 400px;
-  background: url("../img/MainLogo0.jpg");
+  background: url("../img/Logo banner-01.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.navbar-header {
+  text-transform: capitalize;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: #601716;
+}
+
+#myCarousel {
+  width: 95%;
+  overflow: hidden;
 }
