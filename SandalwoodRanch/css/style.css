@@ -18,7 +18,9 @@
   color: #601716;
 }
 
-#myCarousel {
-  width: 95%;
-  overflow: hidden;
+.product {
+  width: 500px;
+  height: 700px;
+  background-image: url("../img/CoolWeatherBodyOil.jpg");
+  background-repeat: no-repeat;
 }
