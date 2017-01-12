@@ -14,6 +14,7 @@
 
 .navbar a {
   color: #601716;
+  font-family: "Quicksand", sans-serif;
 }
 
 .navbar-header {
@@ -28,4 +29,50 @@
 .my-nav{
   display: block;
   margin: auto;
+}
+
+.products {
+  padding-top: 40px;
+}
+
+.pre-footer {
+  text-align: center;
+  color: #601716;
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.pre-footer p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.face h2 {
+  text-transform: capitalize;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: #601716;
+}
+
+.body h2 {
+  text-transform: capitalize;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: #601716;
+}
+
+.last-row {
+  padding-top: 30px;
+}
+
+.icons {
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+
+
+.footer {
+  padding-top: 30px;
 }
