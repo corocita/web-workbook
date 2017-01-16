@@ -1,3 +1,8 @@
+#my-overrides .producttitle > .titles {
+  color: white;
+
+}
+
 .heropic {
   width: 100%;
   height: 400px;
@@ -33,10 +38,10 @@
 
 .products {
   padding-top: 40px;
-  height: 100px;
 }
 
 .olive {
+  width: 360px;
   height: 240px;
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
@@ -44,9 +49,23 @@
     url(../img/shutterstock_olive_branch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.producttitle {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 55px;
 }
 
 .aloe {
+  width: 360px;
   height: 240px;
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
@@ -54,9 +73,11 @@
     url(../img/shutterstock_aloe_isolated_in_pot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 30px;
 }
 
 .herbs {
+  width: 360px;
   height: 240px;
   background: linear-gradient(
     rgba(0, 0, 0, 0.3),
@@ -65,9 +86,6 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
 
 .pre-footer {
   text-align: center;
@@ -111,4 +129,8 @@
 
 .product-info {
   margin-left: 30px;
+}
+
+.love {
+  
 }
