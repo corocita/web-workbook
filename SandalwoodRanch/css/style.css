@@ -26,14 +26,48 @@
   text-align: center;
 }
 
-.my-nav{
+/*.my-nav {
   display: block;
   margin: auto;
-}
+}*/
 
 .products {
   padding-top: 40px;
+  height: 100px;
 }
+
+.olive {
+  height: 240px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3) ),
+    url(../img/shutterstock_olive_branch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aloe {
+  height: 240px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3) ),
+    url(../img/shutterstock_aloe_isolated_in_pot.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herbs {
+  height: 240px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3) ),
+    url(../img/shutterstock_herbs_and_spices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 
 .pre-footer {
   text-align: center;
@@ -71,8 +105,10 @@
   font-size: 30px;
 }
 
-
-
 .footer {
   padding-top: 30px;
+}
+
+.product-info {
+  margin-left: 30px;
 }
