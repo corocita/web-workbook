@@ -112,6 +112,7 @@ a:hover {
   font-family: "Quicksand", sans-serif;
   text-align: center;
   color: #601716;
+  margin-bottom: 20px;
 }
 
 .last-row {
@@ -131,6 +132,7 @@ a:hover {
   margin-left: 30px;
 }
 
-.love {
-  
+.love-container {
+  text-align: center;
+  font-size: 15px;
 }
