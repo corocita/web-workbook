@@ -15,6 +15,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   float: none;
+  padding-left: 315px;
 }
 
 .navbar a {
@@ -38,6 +39,7 @@
 
 .products {
   padding-top: 40px;
+  padding-left: 30px;
 }
 
 .olive {
@@ -91,7 +93,6 @@ a:hover {
   text-align: center;
   color: #601716;
   padding-top: 30px;
-  border-bottom: 1px solid black;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -115,6 +116,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.pre-footer h2 {
+  padding-bottom: 10px;
+}
+
 .last-row {
   padding-top: 30px;
 }
@@ -126,6 +131,18 @@ a:hover {
 
 .footer {
   padding-top: 30px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.footer a {
+  color: #601716;
+  font-size: 13px;
+
 }
 
 .product-info {
@@ -135,4 +152,37 @@ a:hover {
 .love-container {
   text-align: center;
   font-size: 15px;
+}
+
+.love-container p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.flower {
+  width: 50px;
+  height: 50px;
+
+}
+
+.last-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #601716;
+
+}
+
+.footer a {
+  font-size: 20px;
+}
+
+.fa-3x {
+  font-size: 2em;
+}
+
+.fa-facebook-square {
+  padding-top: 20px;
 }
