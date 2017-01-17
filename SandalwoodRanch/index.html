@@ -49,9 +49,22 @@
                 role="button" aria-haspopup="true" aria-expanded="false">
                 products<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="face.html">face</a></li>
-                  <li><a href="body.html">body</a></li>
                   <li><a href="body.html">hair</a></li>
+                  <li><a href="hair.html">body</a></li>
+                  <li class="dropdown-submenu">
+                    <a class="test" tabindex="-1" href="#">face<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">cleansers</a></li>
+                      <li class="dropdown-submenu">
+                        <li><a tabindex="-1" href="#">skin type</a></li>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">dry</a></li>
+                          <li><a href="#">normal</a></li>
+                          <li><a href="#">oily</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
             </ul>

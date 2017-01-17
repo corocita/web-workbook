@@ -15,7 +15,7 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   float: none;
-  padding-left: 315px;
+  padding-left: 320px;
 }
 
 .navbar a {
@@ -40,6 +40,7 @@
 .products {
   padding-top: 40px;
   padding-left: 30px;
+  padding-bottom: 40px;
 }
 
 .olive {
@@ -185,4 +186,9 @@ a:hover {
 
 .fa-facebook-square {
   padding-top: 20px;
+}
+
+.face-products {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
