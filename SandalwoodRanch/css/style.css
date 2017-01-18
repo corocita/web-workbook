@@ -207,3 +207,10 @@ a:hover {
     margin-top: -6px;
     margin-left: -1px;
   }
+
+  .caret-right {
+  border-left: 4px solid black;
+  border-right: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
