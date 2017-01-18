@@ -143,7 +143,6 @@ a:hover {
 .footer a {
   color: #601716;
   font-size: 13px;
-
 }
 
 .product-info {
@@ -163,7 +162,6 @@ a:hover {
 .flower {
   width: 50px;
   height: 50px;
-
 }
 
 .last-footer {
@@ -173,7 +171,6 @@ a:hover {
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   color: #601716;
-
 }
 
 .footer a {
@@ -208,9 +205,36 @@ a:hover {
     margin-left: -1px;
   }
 
-  .caret-right {
+.caret-right {
   border-left: 4px solid black;
   border-right: 0;
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
+}
+
+.love-container {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.love-container a {
+  color: #601716;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.about-container {
+  text-align: center;
+}
+
+.about-info {
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+}
+
+.resources-info {
+  padding-top: 30px;
+  padding-bottom: 100px;
 }
