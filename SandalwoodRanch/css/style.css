@@ -213,6 +213,7 @@ a:hover {
 }
 
 .love-container {
+  padding-bottom: 30px;
   text-align: center;
   font-size: 17px;
   font-family: "Quicksand", sans-serif;
@@ -226,6 +227,7 @@ a:hover {
 
 .about-container {
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .about-info {
@@ -237,4 +239,21 @@ a:hover {
 .resources-info {
   padding-top: 30px;
   padding-bottom: 100px;
+}
+
+.partners-info {
+  padding-bottom: 100px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.partners-info h2 {
+  margin-top: 0px;
+}
+
+.map {
+  width: 300px;
+  height: 300px;
 }
