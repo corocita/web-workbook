@@ -272,3 +272,38 @@ a:hover {
   width: 300px;
   height: 300px;
 }
+
+.hair-container {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.hair-info {
+  padding-bottom: 100px;
+  padding-left: 30px;
+  font-family: "Quicksand", sans-serif;
+  color: #601716;
+  font-size: 20px;
+  text-transform: inherit;
+}
+
+.hair-info h2 {
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+
+.hair-info h4 {
+  text-transform: capitalize;
+}
+
+.hair-info p {
+  font-size: 16px;
+}
+
+.img-padding {
+  padding-right: 30px;
+}
+
+.text-padding {
+  padding-left: 30px;
+}
