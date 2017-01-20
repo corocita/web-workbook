@@ -216,11 +216,6 @@ a:hover {
   padding-top: 20px;
 }
 
-.face-products {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
 .dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
@@ -355,4 +350,28 @@ a:hover {
 
 .skin-info p{
   font-size: 16px;
+}
+
+.left-img {
+  padding-left: 0px;
+}
+
+.face-container {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #601716;
+  text-transform: capitalize;
+}
+
+.face-products {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  padding-left: 30px;
+  font-family: "Quicksand", sans-serif;
+  color: #601716;
+  text-transform: capitalize;
+}
+
+.face-products a {
+  color: #601716;
 }

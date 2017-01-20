@@ -21,7 +21,7 @@
 
     <div class="container-fluid">
       <nav class="navbar navbar-full navbar-static-top">
-        <div class="navbar-header">
+        <div id="overrides" class="navbar-header">
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right my-nav">
               <li class="active navbuttons">
@@ -35,12 +35,12 @@
             </ul>
             <ul class="nav navbar-nav navbar-right my-nav">
               <li class="active navbuttons">
-                <a href="#">partners<span class="sr-only">(current)</span></a>
+                <a href="partners.html">partners<span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="active navbuttons">
-                <a href="#">about<span class="sr-only">(current)</span></a>
+                <a href="about.html">about<span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -49,15 +49,37 @@
                 role="button" aria-haspopup="true" aria-expanded="false">
                 products<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="face.html">face</a></li>
+                  <li><a href="hair.html">hair</a></li>
                   <li><a href="body.html">body</a></li>
-                  <li><a href="body.html">hair</a></li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="face.html">face<span class="caret caret-right"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a href="#">cleansers<span class="caret caret-right"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">cleansers</a></li>
+                            <li><a href="#">masks</a></li>
+                            <li><a href="#">moisturizers</a></li>
+                            <li><a href="#">toners</a></li>
+                          </ul>
+                      </li>
+                      <!--<li><a tabindex="-1" href="#">cleansers</a></li> -->
+                      <li class="dropdown-submenu">
+                        <a href="#">skin type<span class="caret caret-right"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">dry</a></li>
+                            <li><a href="#">normal</a></li>
+                            <li><a href="#">oily</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="active navbuttons">
-                <a href="./index.html">home<span class="sr-only">(current)</span></a>
+                <a href="index.html">home<span class="sr-only">(current)</span></a>
               </li>
             </ul>
           </div>
