@@ -18,9 +18,9 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <nav class="navbar navbar-full navbar-static-top">
-        <div class="navbar-header">
+        <div id="overrides" class="navbar-header">
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right my-nav">
               <li class="active navbuttons">
@@ -34,12 +34,12 @@
             </ul>
             <ul class="nav navbar-nav navbar-right my-nav">
               <li class="active navbuttons">
-                <a href="#">partners<span class="sr-only">(current)</span></a>
+                <a href="partners.html">partners<span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="active navbuttons">
-                <a href="#">about<span class="sr-only">(current)</span></a>
+                <a href="about.html">about<span class="sr-only">(current)</span></a>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -48,9 +48,22 @@
                 role="button" aria-haspopup="true" aria-expanded="false">
                 products<span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="face.html">face</a></li>
+                  <li><a href="hair.html">hair</a></li>
                   <li><a href="body.html">body</a></li>
-                  <li><a href="body.html">hair</a></li>
+                  <li class="dropdown-submenu">
+                    <a tabindex="-1" href="face.html">face<span class="caret caret-right"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a tabindex="-1" href="#">cleansers</a></li>
+                      <li class="dropdown-submenu">
+                        <a href="#">skin type<span class="caret caret-right"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">dry</a></li>
+                            <li><a href="#">normal</a></li>
+                            <li><a href="#">oily</a></li>
+                          </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -70,64 +83,63 @@
           <h2>
             for the body
           </h2>
+          <img class="flower" src="img/1.5-flower-01.jpg" alt="flower">
         </div>
       </div>
     </div>
 
-    <section class="container products">
+    <div class="container products body-products">
       <div class="row">
-        <div class="col-xs-4">
-          <img src="img/CoolWeatherBodyOil.jpg" class="img-responsive" style="padding-right" alt="Cool Weather Body Oil">
+        <div class="col-xs-4 body-right body-spacing">
+          <a href="coolweatherbodyoil.html"><img src="img/CoolWeatherBodyOil.jpg" class="img-responsive" style="padding-right" alt="Cool Weather Body Oil"></a>
+          <h3>
+            Cool Weather Body Oil
+          </h3>
         </div>
-        <div class="col-xs-4">
-          <img src="img/Deodorant.jpg" class="img-responsive" style="padding-right" alt="Deodorant">
+        <div class="col-xs-4 body-spacing">
+          <a href="deodorant.html"><img src="img/Deodorant.jpg" class="img-responsive" style="padding-right" alt="Deodorant"></a>
+          <h3>
+            Deodorant
+          </h3>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-4 body-spacing">
           <img src="img/DrySkinCleanser.jpg" class="img-responsive" style="padding-right" alt="Dry Skin Cleanser">
+          <h3>
+            Dry Skin Cleanser
+          </h3>
         </div>
-        <div class="col-xs-4 last-row">
-          <img src="img/HairSave.jpg" class="img-responsive" style="padding-right" alt="Hair Save">
+        <div class="col-xs-4 col-xs-offset-2 last-row body-spacing">
+          <a href="skinsave.html"><img src="img/SkinSave.jpg" class="img-responsive" style="padding-right" alt="Skin Save"></a>
+          <h3>
+            Skin Save
+          </h3>
         </div>
-        <div class="col-xs-4 last-row">
-          <img src="img/SkinSave.jpg" class="img-responsive" style="padding-right" alt="Skin Save">
-        </div>
-        <div class="col-xs-4 last-row">
-          <img src="img/ToothSave.jpg" class="img-responsive" style="padding-right" alt="ToothSave">
+        <div class="col-xs-4 last-row body-spacing">
+          <a href="toothsave.html"><img src="img/ToothSave.jpg" class="img-responsive" style="padding-right" alt="ToothSave"></a>
+          <h3>
+            Tooth Save
+          </h3>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 pre-footer">
-          <h2>
-            Ayurvedic Inspired Skin Care
-          </h2>
-          <p>
-            Sandalwood Ranch products are based on the idea of using natural
-            products that heal the skin.
-          </p>
-          <div class="container-fluid icons">
-            <div class="row">
-              <i class="fa fa-leaf" aria-hidden="true"></i>
-              <i class="fa fa-globe" aria-hidden="true"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <div class="container footer">
       <div class="row">
-        <div class="col-xs-4">
-          snvdodnvo
-
-
-
+        <div class="col-xs-12">
+          <div>
+            <a href="#">Disclaimer</a>
+          </div>
+          <div>
+            <a href="https://goo.gl/forms/Ma8f03SRLtakJhl73" target"_blank">Contact</a>
+          </div>
+          <div>
+            <a href="#">FAQs</a>
+          </div>
+            <a href="https://www.facebook.com/pg/sandalwoodranchskincare" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+            <a href="https://goo.gl/forms/Ma8f03SRLtakJhl73" target="_blank"><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></a>
         </div>
-
       </div>
-
     </div>
 
 

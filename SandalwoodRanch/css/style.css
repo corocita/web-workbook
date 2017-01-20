@@ -39,9 +39,36 @@
 
 .products {
   padding-top: 40px;
-  padding-left: 30px;
   padding-bottom: 40px;
 }
+
+.body-products {
+  width: 90%;
+}
+
+.body-spacing {
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-bottom: 70px;
+}
+
+.body-products h3 {
+  font-family: "Quicksand", sans-serif;
+  color: #601716;
+  text-align: center;
+}
+/*.body-right {
+  padding-right: 30px;
+}
+
+.body-left-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.body-left {
+  padding-left: 30px;
+}*/
 
 .olive {
   width: 360px;
@@ -115,6 +142,10 @@ a:hover {
   text-align: center;
   color: #601716;
   margin-bottom: 20px;
+}
+
+.body {
+  text-align: center;
 }
 
 .pre-footer h2 {
@@ -306,4 +337,22 @@ a:hover {
 
 .text-padding {
   padding-left: 30px;
+}
+
+.skin-info {
+  padding-bottom: 100px;
+  padding-left: 30px;
+  font-family: "Quicksand", sans-serif;
+  color: #601716;
+  font-size: 20px;
+  text-transform: inherit;
+}
+
+.skin-info h2 {
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+
+.skin-info p{
+  font-size: 16px;
 }
