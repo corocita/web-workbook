@@ -47,7 +47,7 @@
 }
 
 .body-spacing {
-  padding-left: 70px;
+  padding-left: 61px;
   padding-right: 60px;
   padding-bottom: 70px;
 }
@@ -374,4 +374,12 @@ a:hover {
 
 .face-products a {
   color: #601716;
+}
+
+.steps-space {
+  padding-top: 50px;
+}
+
+.lip-spacing {
+  padding-bottom: 30px;
 }
