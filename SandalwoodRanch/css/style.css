@@ -335,7 +335,7 @@ a:hover {
 }
 
 .skin-info {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   padding-left: 30px;
   font-family: "Quicksand", sans-serif;
   color: #601716;
@@ -382,4 +382,8 @@ a:hover {
 
 .lip-spacing {
   padding-bottom: 30px;
+}
+
+.coming-soon {
+  padding-bottom: 100px;
 }
