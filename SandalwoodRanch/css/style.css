@@ -8,7 +8,7 @@
 
 .heropic {
   width: 100%;
-  height: 400px;
+  height: 290px;
   background: url("../img/Logo banner-01.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -30,8 +30,8 @@
 }
 
 .navbar {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /*border-top: 1px solid black;*/
+  /*border-bottom: 1px solid black;*/
   float: none;
   /*padding-left: 320px;*/
 }
@@ -112,6 +112,22 @@
   background-position: center;
 }
 
+
+
+.love-header {
+  height: 300px;
+  margin-top: 35px;
+  margin-bottom: 60px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3) ),
+    url(../img/shutterstock_olive_branch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
 /*img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); For IE8 and earlier
@@ -165,6 +181,16 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 30px;
+}
+
+.love-header h2 {
+  text-transform: capitalize;
+  font-family: "Quicksand", sans-serif;
+  font-size: 80px;
+  padding-top: 88px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .herbs {
@@ -237,6 +263,16 @@ a:hover {
 .love-container p {
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.love-header h2 {
+  text-transform: capitalize;
+  font-family: "Quicksand", sans-serif;
+  font-size: 80px;
+  padding-top: 88px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .flower {
