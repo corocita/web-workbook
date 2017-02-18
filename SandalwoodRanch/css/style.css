@@ -118,36 +118,15 @@
 
 
 
-.love-header {
+/*.love-header {
   height: 300px;
   margin-top: 35px;
   margin-bottom: 60px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3) ),
-    url(../img/shutterstock_olive_branch.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.298039), rgba(0, 0, 0, 0.298039)) center center / cover no-repeat, url(../img/shutterstock_olive_branch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   background-position: center;
-}
-
-/*img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100); For IE8 and earlier
-}*/
-
-/*.body-right {
-  padding-right: 30px;
-}
-
-.body-left-right {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.body-left {
-  padding-left: 30px;
 }*/
 
 .olive {
@@ -231,9 +210,9 @@ a:hover {
   padding-bottom: 10px;
 }
 
-.last-row {
+/*.last-row {
   padding-top: px;
-}
+}*/
 
 .icons {
   padding-bottom: 30px;
@@ -282,7 +261,7 @@ a:hover {
 .flower {
   width: 100px;
   height: 100px;
-  padding: 20px; 0px;
+  padding: 20px 0px;
 }
 
 .last-footer {
