@@ -33,10 +33,13 @@
     }
 }
 
+
+
 .navbar {
   /*border-top: 1px solid black;*/
   /*border-bottom: 1px solid black;*/
   float: none;
+  padding-top: 20px;
   /*padding-left: 320px;*/
 }
 
