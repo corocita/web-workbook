@@ -46,6 +46,7 @@ grid-framework.less:48
   /*border-bottom: 1px solid black;*/
   float: none;
   padding-top: 20px;
+  align-items: center; 
   /*padding-left: 320px;*/
 }
 
