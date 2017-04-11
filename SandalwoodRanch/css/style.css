@@ -1,30 +1,50 @@
-#my-overrides .producttitle > .titles {
+.titles {
   color: white;
+  text-decoration: none;
 }
 
-@media (min-width: 992px)
-grid-framework.less:48
-.col-md-8 {
-    width: 66.66666667%;
+
+body {
+  font-family: "Quicksand", sans-serif;
 }
 
-/*#overrides {
-  float; none;
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.text-color {
+  color: #601716;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+
+  font-size: 25px;*/
+}
+
+/*.tab {
+  width: calc(33.333333%);
+  margin: 10px;
 }*/
 
-.heropic {
+/*.heropic {
   width: 100%;
   height: 290px;
   background: url("../img/Logo banner-01.png");
   background-position: center;
   background-repeat: no-repeat;
-}
+}*/
 
-.hero-headers {
+/*.hero-headers {
   margin-top: 35px;
-}
+}*/
 
-@media screen and (min-width:768px){
+/*@media screen and (min-width:768px){
     .navbar-brand-centered {
         position: absolute;
         left: 50%;
@@ -37,18 +57,17 @@ grid-framework.less:48
     .navbar>.container-fluid .navbar-brand-centered {
         margin-left: -80px;
     }
-}
+}*/
 
 
 
-.navbar {
-  /*border-top: 1px solid black;*/
-  /*border-bottom: 1px solid black;*/
+/*.navbar {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   float: none;
   padding-top: 20px;
-  align-items: center; 
-  /*padding-left: 320px;*/
-}
+  align-items: center;
+  padding-left: 320px;
 
 .navbar a {
   color: #601716;
@@ -62,7 +81,7 @@ grid-framework.less:48
 
 .collapse .navbar-collapse {
   text-align: center;
-}
+}*/
 
 /*.my-nav {
   display: block;
@@ -73,14 +92,14 @@ grid-framework.less:48
   padding: 40px 0;
 }*/
 
-.body-products {
+/*.body-products {
   width: 90%;
 }
 .body-spacing {
   padding: 0 15px;
-}
+}*/
 
-.mid-row {
+/*.mid-row {
   height: 473px;
 }
 
@@ -124,7 +143,7 @@ grid-framework.less:48
   background-size: cover;
   text-align: center;
   background-position: center;
-}
+}*/
 
 
 
@@ -139,17 +158,15 @@ grid-framework.less:48
   background-position: center;
 }*/
 
-.olive {
-  width: 360px;
+.my-padding {
+  padding: 10px;
+}
+
+.product-images {
   height: 240px;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.3) ),
-    url(../img/shutterstock_olive_branch.jpg);
+  background-image:url(../img/shutterstock_olive_branch.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 a:hover {
@@ -157,8 +174,6 @@ a:hover {
 }
 
 .producttitle {
-  color: white;
-  font-family: "Quicksand", sans-serif;
   font-size: 75px;
   text-align: center;
   padding-top: 55px;
@@ -173,10 +188,10 @@ a:hover {
     url(../img/shutterstock_aloe_isolated_in_pot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 30px;
+  /*margin-left: 30px;*/
 }
 
-.love-header h2 {
+/*.love-header h2 {
   text-transform: capitalize;
   font-family: "Quicksand", sans-serif;
   font-size: 80px;
@@ -184,7 +199,7 @@ a:hover {
   text-align: center;
   color: white;
   margin-bottom: 20px;
-}
+}*/
 
 .herbs {
   width: 360px;
@@ -199,7 +214,6 @@ a:hover {
 
 .pre-footer {
   text-align: center;
-  color: #601716;
   padding-top: 30px;
   font-family: "Quicksand", sans-serif;
 }
@@ -240,20 +254,19 @@ a:hover {
 }
 
 .footer a {
-  color: #601716;
   font-size: 13px;
 }
 
-.product-info {
+/*.product-info {
   margin-left: 30px;
-}
+}*/
 
-.love-container {
+/*.love-container {
   text-align: center;
   font-size: 15px;
-}
+}*/
 
-.love-container p {
+/*.love-container p {
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -266,13 +279,13 @@ a:hover {
   text-align: center;
   color: white;
   margin-bottom: 20px;
-}
+}*/
 
-.flower {
+/*.flower {
   width: 100px;
   height: 135px;
   padding: 20px 0px;
-}
+}*/
 
 .last-footer {
   padding-top: 60px;
@@ -287,15 +300,12 @@ a:hover {
   font-size: 20px;
 }
 
-.fa-3x {
-  font-size: 2em;
-}
 
 .fa-facebook-square {
   padding-top: 20px;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+/*.dropdown-submenu:hover>.dropdown-menu {
     display: block;
 }
 
@@ -308,9 +318,9 @@ a:hover {
     left: 100%;
     margin-top: -6px;
     margin-left: -1px;
-  }
+  }*/
 
-.caret-right {
+/*.caret-right {
   border-left: 4px solid black;
   border-right: 0;
   border-top: 4px solid transparent;
@@ -322,9 +332,9 @@ a:hover {
   text-align: center;
   font-size: 17px;
   font-family: "Quicksand", sans-serif;
-}
+}*/
 
-.love-container a {
+/*.love-container a {
   color: #601716;
   font-size: 20px;
   text-decoration: none;
@@ -333,9 +343,9 @@ a:hover {
 .about-container {
   text-align: center;
   padding-bottom: 50px;
-}
+}*/
 
-.about-info {
+/*.about-info {
   padding-bottom: 100px;
   font-family: "Quicksand", sans-serif;
   font-size: 17px;
@@ -344,9 +354,9 @@ a:hover {
 .resources-info {
   padding-top: 30px;
   padding-bottom: 100px;
-}
+}*/
 
-.partners-list {
+/*.partners-list {
   padding-bottom: 20px;
   font-family: "Quicksand", sans-serif;
   font-size: 17px;
@@ -363,17 +373,17 @@ a:hover {
 .partners-info a {
   color: #601716;
   text-decoration: none;
-}
+}*/
 
-.partners-container {
+/*.partners-container {
   text-align: center;
   padding-bottom: 30px;
   font-family: "Quicksand", sans-serif;
   color: #601716;
   font-size: 20px;
-}
+}*/
 
-.partners-info {
+/*.partners-info {
   text-align: center;
   padding-bottom: 30px;
   font-family: "Quicksand", sans-serif;
@@ -388,21 +398,21 @@ a:hover {
 .map {
   width: 300px;
   height: 300px;
-}
+}*/
 
-.hair-container {
+/*.hair-container {
   text-align: center;
   padding-bottom: 30px;
-}
+}*/
 
-.hair h2 {
+/*.hair h2 {
   text-transform: capitalize;
+  text-align: center;
   font-family: "Quicksand", sans-serif;
   font-size: 80px;
   padding-top: 88px;
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
+  color: white;*/
+  /*margin-bottom: 20px;*/
 }
 
 .hair {
@@ -415,7 +425,6 @@ a:hover {
     url(../img/shutterstock_aloe_isolated_in_pot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
   background-position: center;
 }
 
