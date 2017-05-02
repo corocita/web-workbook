@@ -3,13 +3,13 @@
   text-decoration: none;
 }
 
-
 body {
   font-family: "Quicksand", sans-serif;
 }
 
-.image-container {
+.logo-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
 }
@@ -20,11 +20,13 @@ body {
 
 .nav-container {
   display: flex;
-  align-items: center;
-  list-style: none;
   flex-wrap: wrap;
-
-  font-size: 25px;*/
+  justify-content: space-around;
+  /*padding-left: 0px;*/
+  padding: 0px 10px;
+  list-style: none;
+  font-size: 25px;
+  /*max-width: 75%;*/
 }
 
 /*.tab {
@@ -167,10 +169,17 @@ body {
   background-image:url(../img/shutterstock_olive_branch.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+
+a {
+  color: #601716;
 }
 
 a:hover {
   text-decoration: none;
+  color: #601716;
 }
 
 .producttitle {
