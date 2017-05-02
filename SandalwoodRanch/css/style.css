@@ -46,23 +46,6 @@ body {
   margin-top: 35px;
 }*/
 
-/*@media screen and (min-width:768px){
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: #eee;
-    }
-    .navbar>.container .navbar-brand-centered,
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
-}*/
-
-
-
 /*.navbar {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -290,11 +273,13 @@ a:hover {
   margin-bottom: 20px;
 }*/
 
-/*.flower {
+.flower {
   width: 100px;
   height: 135px;
   padding: 20px 0px;
-}*/
+
+}
+
 
 .last-footer {
   padding-top: 60px;
